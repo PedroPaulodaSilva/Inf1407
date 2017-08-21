@@ -20,3 +20,6 @@ Quando o site é gerado o primeiro arquivo a ser procurado é o "index.html", lo
 `<a href="2017-08-16/fatorial.jsp">Calculo fatorial</a><br/>`
 
 No caso acima é possível linkar o arquivo fatorial.jsp desta forma se o arquivo chamador estiver no mesmo projeto. Caso contrário seria necessário o endereço completo para referência ser correta. 
+
+
+Um request contém todos os dados que o usuário passa através de um formulário
