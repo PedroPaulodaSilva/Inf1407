@@ -38,5 +38,5 @@ Colocando o sinal de igual depois do percentual faz com que o compilador tente c
 
 <input type="checkbox">clica aqui</input>
 
-Checkbox é o único input que precisa fechar com a tag </input>
+Checkbox é o único input que precisa fechar com a tag </input> ISSO FOI MENTIRA DO THIAGO
 Apenas os checkbox marcados são enviados para o servidor
