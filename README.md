@@ -6,7 +6,9 @@ Site da disciplina: http://cursos.meslin.com.br/home/Programao-para-a-Web
 **Anotações gerais**
 
 Diferença entre métodos out.write() e out.print()
+
 out.write ->Escreve uma string. É menos abstrato e explode ao receber a string Null como argumento, resultando em NullPointerException
+
 out.print ->Imprime uma string. É capaz de imprimir a string Null
 
 
