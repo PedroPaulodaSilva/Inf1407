@@ -13,7 +13,7 @@ Página JSP
 
 <%
 for(int i=0; i < 5+Math.random()*5; i++) {
-/* Esse laço imprime aleatoriamente a frase abaixo entre 1 a 5*/
+/* Esse laço imprime aleatoriamente a frase abaixo entre 1 a 5 repetições */
 %>
 
 Hi my friend :)
