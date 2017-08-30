@@ -36,6 +36,8 @@ catch(Exception e){
 c++;
 out.print("C = " + c + "<br/>");
 
+Thread.sleep(10000);
+
 //atributo de session
 try{
 	d = (int)session.getAttribute("d");
@@ -49,7 +51,7 @@ out.print("D = " + d + "<br/>");
 
 //atributo de application
 
-synchronized(application){
+synchronized(application.getAttribute("f")){
 	try{
 		f = (int)application.getAttribute("f");
 	}
@@ -61,7 +63,7 @@ synchronized(application){
 }
 out.print("F = " + f + "<br/>");
 
-synchronized(application){
+synchronized(application.getAttribute("g")){
 	try{
 		g = (int)application.getAttribute("g");
 	}
