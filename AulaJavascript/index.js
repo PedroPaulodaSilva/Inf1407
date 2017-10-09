@@ -2,7 +2,7 @@
  * 
  */
 
-onload = inicia
+onload = inicia;
 
 
 function inicia(){
