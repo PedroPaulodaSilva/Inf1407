@@ -11,7 +11,7 @@ function separa(){
 	var email = document.getElementById("email").value;
 	//var re = /(.+)@(.+)/; pra receber qualquer letra + @ + qualquer letra
 	//var re = /(([a-z]+)@)([a-z]+)/; receber email que contenha apenas letras, no numbers allowed
-	var re = /^[a-z\-]+@[a-z\-]+(\.[a-z]+)+/;
+	var re = /^([a-z\-0-9]+)@(([a-z\-0-9]+)(\.[a-z\-0-9]+)+)/;
 	var resultado = re.exec(email);
 	console.log("0: " + resultado[0]);
 	console.log("1: " + resultado[1]);
