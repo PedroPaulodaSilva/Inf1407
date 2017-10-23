@@ -64,7 +64,7 @@ function adicionaEmail(){
 function removeEmail(evento){
 	console.log("vai remover um email " + evento.target.getAttribute("id"));
 	
-	var base = document.getElementById("idEMail");
+	var base = document.getElementById("idEmail");
 	var objLataDoLixo = evento.target;
 	var objDivPai = objLataDoLixo.parentNode;
 	base.removeChild(objDivPai);
