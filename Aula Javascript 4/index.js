@@ -53,6 +53,8 @@ function adicionaEmail(){
 	
 	console.log("contadorEmail = " + contadorEmail);
 	contadorEmail++;
+	
+	document.getElementById("idQtdEmail").setAttribute("value", contadorEmail);
 }
 
 /**
@@ -61,4 +63,11 @@ function adicionaEmail(){
  */
 function removeEmail(evento){
 	console.log("vai remover um email " + evento.target.getAttribute("id"));
+	
+	var base = document.getElementById("idEMail");
+	var objLataDoLixo = evento.target;
+	var objDivPai = objLataDoLixo.parentNode;
+	base.removeChild(objDivPai);
+	
+	//document.getElementById("idEmail").removeChild(evento.target.parentNode);
 }
